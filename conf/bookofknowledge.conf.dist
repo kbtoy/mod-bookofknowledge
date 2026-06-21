@@ -1,0 +1,117 @@
+#
+# Copyright (C) 2016+ AzerothCore <www.azerothcore.org>, released under GNU AGPL v3 license: https://github.com/azerothcore/azerothcore-wotlk/blob/master/LICENSE-AGPL3
+#
+
+[worldserver]
+
+########################################
+# Book of Knowledge Configuration
+########################################
+#
+#    Book of Knowledge.Enable
+#        Description: Enable/Disable the librarian/bonus attributes.
+#        Default:     0 - Disabled
+#                     1 - Enabled
+#
+
+Book of Knowledge.Enable = 0
+
+#
+#    Book of Knowledge.ResetCost
+#        Description: The cost of resetting attributes in copper.
+#        Default:     2500000 (250 gold)
+#
+
+Book of Knowledge.ResetCost = 2500000
+
+#
+#    Book of Knowledge.DisablePvP
+#        Description: Enable/Disable the attributes in PvP combat.
+#                     0 - Disabled
+#        Default:     1 - Enabled
+#
+
+Book of Knowledge.DisablePvP = 1
+
+#
+#    Book of Knowledge.Book.Loot.Enable
+#        Description: Add Book of Knowledge to all creature drops.
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+Book of Knowledge.Book.Loot.Enable = 1
+
+#
+#    Book of Knowledge.Book.Loot.Chance
+#        Description: Drop chance percentage for the Book of Knowledge.
+#        Default:     5.0 (5%)
+#
+
+Book of Knowledge.Book.Loot.Chance = 5.0
+
+#
+#    Book of Knowledge.Book.Quest.Enable
+#        Description: Add Book of Knowledge as a bonus quest reward.
+#        Default:     1 - Enabled
+#                     0 - Disabled
+#
+
+Book of Knowledge.Book.Quest.Enable = 1
+
+#
+#    Book of Knowledge.Book.Quest.Chance
+#        Description: Reward chance percentage for quests.
+#        Default:     10.0 (10%)
+#
+
+Book of Knowledge.Book.Quest.Chance = 10.0
+
+#
+#    Book of Knowledge.Stat.* (Toggles)
+#        Description: Enable (1) or Disable (0) specific stats at the Librarian.
+#                     If set to 0, the stat will not appear in the menu.
+#        Default:     1
+#
+
+Book of Knowledge.Stat.Strength    = 1
+Book of Knowledge.Stat.Agility     = 1
+Book of Knowledge.Stat.Stamina     = 1
+Book of Knowledge.Stat.Intellect   = 1
+Book of Knowledge.Stat.AttackPower = 1
+Book of Knowledge.Stat.SpellPower  = 1
+Book of Knowledge.Stat.Block       = 1
+Book of Knowledge.Stat.Dodge       = 1
+Book of Knowledge.Stat.Parry       = 1
+Book of Knowledge.Stat.Haste       = 1
+Book of Knowledge.Stat.Hit         = 1
+Book of Knowledge.Stat.Crit        = 1
+Book of Knowledge.Stat.Expertise   = 1
+Book of Knowledge.Stat.Defense     = 1
+Book of Knowledge.Stat.SpellHit    = 1
+Book of Knowledge.Stat.SpellCrit   = 1
+Book of Knowledge.Stat.SpellHaste  = 1
+
+#
+#    Book of Knowledge.Max.*
+#        Description: The max value each attribute can be allocated.
+#        Default:     100
+#
+
+Book of Knowledge.Max.Strength    = 100
+Book of Knowledge.Max.Agility     = 100
+Book of Knowledge.Max.Stamina     = 100
+Book of Knowledge.Max.Intellect   = 100
+Book of Knowledge.Max.AttackPower = 100
+Book of Knowledge.Max.SpellPower  = 100
+Book of Knowledge.Max.Block       = 100
+Book of Knowledge.Max.Dodge       = 100
+Book of Knowledge.Max.Parry       = 100
+Book of Knowledge.Max.Haste       = 100
+Book of Knowledge.Max.Hit         = 100
+Book of Knowledge.Max.Crit        = 100
+Book of Knowledge.Max.Expertise   = 100
+Book of Knowledge.Max.Defense     = 100
+Book of Knowledge.Max.SpellHit    = 100
+Book of Knowledge.Max.SpellCrit   = 100
+Book of Knowledge.Max.SpellHaste  = 100

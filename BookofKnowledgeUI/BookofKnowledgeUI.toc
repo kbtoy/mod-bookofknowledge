@@ -1,0 +1,7 @@
+## Interface: 30300
+## Title: Book of Knowledge UI
+## Notes: Custom interface for the Book of Knowledge System.
+## Author: kbt0y
+## Version: 1.0
+
+BookofKnowledgeUI.lua

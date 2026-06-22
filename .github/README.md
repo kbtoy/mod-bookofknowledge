@@ -1,4 +1,4 @@
-# bookofknowledge
+# Book of Knowledge
 Adds a `Librarian` that accepts `Book's of Knowledge` to increase base attributes.
 
 ## Install

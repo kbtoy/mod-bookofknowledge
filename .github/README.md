@@ -2,14 +2,22 @@
 Adds a `Librarian` that accepts `Book's of Knowledge` to increase base attributes.
 
 ## Install
-- Clone this repo to your modules folder or download and place in your modules folder in your Azerothcore source
-- Add the BookofKnowledgeUI addon to your addons folder.
-- Spawn in the librarian where you'd like players to turn in their books (npc_id: 441153).
-- Enable the module in config.
-- Adjust additional setting in the conf to your preferences.
-- The Book of Knowledge is added to the database during the compile
-- You can chnage the Book of Knowledge and the Librarian ID's in the SQL files 
-  if there are conflicts with ID's. SQL file is here \mod-bookofknowledge\data\sql\db-world\base
+- Clone this repo to your modules folder or download
+  and place in your modules folder in your
+  Azerothcore source
+- Add the BookofKnowledgeUI addon to your addons
+  folder.
+- Spawn in the librarian where you'd like players to
+  turn in their books (npc_id: 441153).
+- Enable the module in the conf file
+- Adjust additional setting in the conf to your
+  preferences.
+- The Book of Knowledge is added to the database
+  during the compile
+- You can chnage the Book of Knowledge and the
+  Librarian ID's in the SQL files 
+  if there are conflicts with ID's. SQL file is here
+  \mod-bookofknowledge\data\sql\db-world\base
 
 ## Configuration & Settings
 

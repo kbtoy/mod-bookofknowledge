@@ -6,4 +6,8 @@ VALUES (16073, 9, 5, -1, 'Book of Knowledge', 1134, 1, 64, 0, 1, 0, 0, 0, -1, -1
 -- 2. Lysander Quillscribe / The Librarian (Creature ID: 441153)
 DELETE FROM `creature_template` WHERE `entry`=441153;
 INSERT INTO `creature_template` (`entry`, `difficulty_entry_1`, `difficulty_entry_2`, `difficulty_entry_3`, `KillCredit1`, `KillCredit2`, `name`, `subname`, `IconName`, `gossip_menu_id`, `minlevel`, `maxlevel`, `exp`, `faction`, `npcflag`, `speed_walk`, `speed_run`, `speed_swim`, `speed_flight`, `detection_range`, `rank`, `dmgschool`, `DamageModifier`, `BaseAttackTime`, `RangeAttackTime`, `BaseVariance`, `RangeVariance`, `unit_class`, `unit_flags`, `unit_flags2`, `dynamicflags`, `family`, `type`, `type_flags`, `lootid`, `pickpocketloot`, `skinloot`, `PetSpellDataId`, `VehicleId`, `mingold`, `maxgold`, `AIName`, `MovementType`, `HoverHeight`, `HealthModifier`, `ManaModifier`, `ArmorModifier`, `ExperienceModifier`, `RacialLeader`, `movementId`, `RegenHealth`, `CreatureImmunitiesId`, `flags_extra`, `ScriptName`, `VerifiedBuild`) 
-VALUES (441153, 0, 0, 0, 0, 0, 'Lysander Quillscribe', 'Librarian', NULL, 0, 15, 15, 0, 35, 1, 1, 1.14286, 1, 1, 20, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 'Attriboost_Librarian_Gossip', 1);
+VALUES (441153, 0, 0, 0, 0, 0, 'Lysander Quillscribe', 'Librarian', NULL, 0, 15, 15, 0, 35, 1, 1, 1.14286, 1, 1, 20, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, '', 0, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 'Bookofknowledge_Librarian_Gossip', 1);
+-- 3. Add display model for Lysander Quillscribe
+DELETE FROM `creature_template_model` WHERE `CreatureID` = 441153;
+INSERT INTO `creature_template_model` (`CreatureID`, `Idx`, `CreatureDisplayID`, `DisplayScale`, `Probability`, `VerifiedBuild`)
+VALUES (441153, 0, 23556, 1, 1, 0);

@@ -1,6 +1,6 @@
 void SC_AddBookofknowledgeScripts();
 
-void AddBookofknowledgeScripts()
+void Addmod_bookofknowledgeScripts()
 {
     SC_AddBookofknowledgeScripts();
 }
